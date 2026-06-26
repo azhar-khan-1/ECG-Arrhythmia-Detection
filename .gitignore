@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Logs
+*.log
+
+# Temporary Files
+*.tmp
+
+# Streamlit Cache
+.streamlit/
+
+# Build Files
+build/
+dist/
+*.egg-info/
+
+# Python Environment Files
+.python-version
+
+# System Files
+Thumbs.db
+
+# NumPy training/testing arrays
+dataset/X_train.npy
+dataset/X_test.npy
+dataset/y_train.npy
+dataset/y_test.npy
