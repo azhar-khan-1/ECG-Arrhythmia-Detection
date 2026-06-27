@@ -163,11 +163,23 @@ The model achieved excellent discrimination capability with ROC-AUC values close
 # 📁 Repository Structure
 
 ```
-ECG-Arrhythmia-Detection
+ECG-Arrhythmia-Detection/
 │
-├── dataset/
 ├── images/
+│   ├── average_heartbeat_comparison.png
+│   ├── class_distribution.png
+│   ├── cnn_architecture.png
+│   ├── confusion_matrix.png
+│   ├── ecg_heatmap.png
+│   ├── ecg_overlay.png
+│   ├── pca_visualization.png
+│   ├── roc_curve.png
+│   ├── streamlit_dashboard.png
+│   └── training_curves.png
+│
 ├── models/
+│   └── ecg_arrhythmia_cnn.keras
+│
 ├── notebooks/
 │   ├── 01_EDA_and_Data_Preprocessing.ipynb
 │   ├── 02_Model_Training.ipynb
@@ -178,8 +190,10 @@ ECG-Arrhythmia-Detection
 │
 ├── app.py
 ├── requirements.txt
-├── README.md
-└── .gitignore
+├── .gitignore
+└── README.md
+
+Note: The MIT-BIH Arrhythmia dataset is not included in this repository due to repository size constraints. Download the dataset separately and place it in the dataset/ directory before running the notebooks.
 ```
 
 ---
