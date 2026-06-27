@@ -38,8 +38,6 @@ dist/
 # System Files
 Thumbs.db
 
-# NumPy training/testing arrays
-dataset/X_train.npy
-dataset/X_test.npy
-dataset/y_train.npy
-dataset/y_test.npy
+
+# Dataset
+dataset/
